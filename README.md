@@ -1,4 +1,5 @@
-# metalsmith-download
+[![Build Status](https://secure.travis-ci.org/geek/metalsmith-download.png)](http://travis-ci.org/geek/metalsmith-download)
+
 Metalsmith plugin that downloads a file locally
 
 
