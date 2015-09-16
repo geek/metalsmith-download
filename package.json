@@ -1,0 +1,32 @@
+{
+  "name": "metalsmith-download",
+  "description": "Metalsmith plugin to download a file",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/geek/metalsmith-download"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "metalsmith",
+    "plugin"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "hoek": "2.x.x",
+    "wreck": "6.x.x"
+  },
+  "devDependencies": {
+    "code": "1.x.x",
+    "lab": "5.x.x",
+    "metalsmith": "2.0.x"
+  },
+  "scripts": {
+    "test": "lab -a code -t 100 -L",
+    "test-tap": "lab -a code -r tap -o tests.tap",
+    "test-cov-html": "lab -a code -r html -o coverage.html"
+  },
+  "license": "BSD-3-Clause"
+}
